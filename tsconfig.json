@@ -20,8 +20,11 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@controllers/*":["./src/controllers/*"], //sempre que for importado algo com @controllers na frente será referenciado esse path
+      "@controllers/*":["./src/controllers/*"],
       "@models/*":["./src/models/*"] 
     }
-  }
+  },
+  "include":[
+    "src/**/*"
+  ]
 }
